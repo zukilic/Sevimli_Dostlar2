@@ -52,6 +52,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="Konum Giriniz"
+            android:digits="abcdefghijklmnopqrstuvwxyz "
             android:inputType="textPostalAddress"
             android:minHeight="48dp" />
 

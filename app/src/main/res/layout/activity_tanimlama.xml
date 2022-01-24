@@ -93,7 +93,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="Renk Giriniz"
-            android:inputType="textPersonName"
+            android:digits="abcdefghijklmnopqrstuvwxyz "
             android:minHeight="48dp" />
 
         <Spinner
@@ -111,6 +111,7 @@
             android:ems="10"
             android:hint="Konum Giriniz"
             android:inputType="textPersonName"
+            android:digits="abcdefghijklmnopqrstuvwxyz "
             android:minHeight="48dp" />
 
         <ImageView

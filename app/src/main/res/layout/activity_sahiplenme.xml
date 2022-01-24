@@ -80,6 +80,7 @@
             android:layout_height="wrap_content"
             android:hint="Renk Giriniz"
             android:inputType="textPersonName"
+            android:digits="abcdefghijklmnopqrstuvwxyz "
             android:minHeight="48dp" />
 
         <Spinner
@@ -95,6 +96,7 @@
             android:layout_height="wrap_content"
             android:hint="Konum Giriniz"
             android:inputType="textPersonName"
+            android:digits="abcdefghijklmnopqrstuvwxyz "
             android:minHeight="48dp" />
 
     </TableRow>
