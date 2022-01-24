@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Sevimli_Dostlar</string>
+    <string name="selected_item">Selected item:</string>
+    <string-array name="tur">
+        <item>Kedi</item>
+        <item>Köpek</item>
+    </string-array>
+    <string-array name="tur2">
+        <item>Kedi</item>
+        <item>Köpek</item>
+        <item>Diğer</item>
+    </string-array>
+    <string-array name="cinsiyet">
+        <item>Dişi</item>
+        <item>Erkek</item>
+    </string-array>
+    <string-array name="durum">
+        <item>Müdahale bekliyor</item>
+        <item>Müdahale edildi</item>
+    </string-array>
+</resources>

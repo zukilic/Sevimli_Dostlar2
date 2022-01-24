@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AsiGirme"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:context=".AsiGirme"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:shrinkColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Kimlik No"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tür"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Renk"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Son Aşı Zamanı"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Aşı Durumu"
+                    android:gravity="center" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="312dp">
+
+                <EditText
+                    android:id="@+id/kimlikNo"
+                    android:layout_width="99dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Kimlik No Giriniz"
+                    android:inputType="number"
+                    android:minHeight="48dp" />
+
+                <Spinner
+                    android:id="@+id/tur"
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/tur"
+                    android:minHeight="48dp" />
+
+                <EditText
+                    android:id="@+id/renk"
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Renk Giriniz"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp" />
+
+                <EditText
+                    android:id="@+id/zaman"
+                    android:layout_width="27dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Son Aşı Zamanı Giriniz"
+                    android:inputType="date"
+                    android:minHeight="48dp" />
+
+                <EditText
+                    android:id="@+id/durum"
+                    android:layout_width="131dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Aşı Durumu Giriniz"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="105dp">
+
+                <Button
+                    android:id="@+id/talep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:gravity="center"
+                    android:text="Aşı Talebi Gönder" />
+
+                <Button
+                    android:id="@+id/kaydet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:gravity="center"
+                    android:text="Kaydet" />
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Aşı Durumu Listesi"
+            android:layout_marginTop="20dp"
+            android:minHeight="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="119dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="KimlikNo" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="77dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Tür" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="89dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Renk" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="195dp"
+                    android:layout_height="wrap_content"
+                    android:text="Son Aşı Zamanı"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="187dp"
+                    android:layout_height="wrap_content"
+                    android:text="Aşı Durumu"
+                    android:gravity="center" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/kimlikNo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="KimlikNo"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tur2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="Tür" />
+
+                <TextView
+                    android:id="@+id/renk2"
+                    android:layout_width="101dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="Renk" />
+
+                <TextView
+                    android:id="@+id/zaman2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Son Aşı Zamanı"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/durum2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Aşı Durumu"
+                    android:gravity="center" />
+
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>
+

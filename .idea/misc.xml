@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Sevimli_Dostlar2/app/src/main/res/layout/activity_asi_girme.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Sevimli_Dostlar2/app/src/main/res/layout/activity_asi_talebi.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Sevimli_Dostlar2/app/src/main/res/layout/activity_listeleme.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Sevimli_Dostlar2/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Sevimli_Dostlar2/app/src/main/res/layout/activity_olu_hayvan.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Sevimli_Dostlar2/app/src/main/res/layout/activity_sahiplenme.xml" value="0.22" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Sevimli_Dostlar2/app/src/main/res/layout/activity_saldirgan.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Sevimli_Dostlar2/app/src/main/res/layout/activity_tanimlama.xml" value="0.12771739130434784" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
